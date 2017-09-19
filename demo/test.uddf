@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uddf version="3.2.0">
+  <generator>
+    <name>Dive Organizer 2.21</name>
+    <manufacturer id="mares">
+      <name>Mares</name>
+      <contact>
+        <homepage>http://computer.mares.com/index.php</homepage>
+      </contact>
+    </manufacturer>
+    <version>2.21.5.8394</version>
+    <datetime>2017-08-17T10:38:59.3745877+02:00</datetime>
+  </generator>
+  <diver>
+    <owner id="lkjflkdf">
+      <personal>
+        <firstname>My firstname</firstname>
+        <lastname>My lastname</lastname>
+      </personal>
+      <equipment>
+        <divecomputer id="mares_dc_024_id_2">
+          <name>Puck pro</name>
+          <manufacturer id="mares_dc_024_sn_123456789-456789">
+            <name>Mares</name>
+          </manufacturer>
+          <model>Puck Pro</model>
+          <serialnumber>123456789-456789</serialnumber>
+        </divecomputer>
+      </equipment>
+    </owner>
+  </diver>
+  <profiledata>
+    <repetitiongroup id="repgroup_dive_#1_2015-05-11T09:23:00">
+      <dive id="#1_2015-05-11T09:23:00">
+        <informationbeforedive>
+          <link ref="site_32_guid_f9a46637-c376-47e7-af4d-0ae8e8d8aca4" />
+          <datetime>2015-05-11T09:23:00</datetime>
+          <surfaceintervalbeforedive>
+            <infinity />
+          </surfaceintervalbeforedive>
+        </informationbeforedive>
+        <samples>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>0</divetime>
+            <switchmix ref="gas_1" />
+            <temperature>290.65</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>3</depth>
+            <divetime>5</divetime>
+            <temperature>290.55</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>3.7</depth>
+            <divetime>10</divetime>
+            <temperature>290.55</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>4.4</depth>
+            <divetime>15</divetime>
+            <temperature>290.45</temperature>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <lowesttemperature>287.45</lowesttemperature>
+          <greatestdepth>25.4</greatestdepth>
+          <diveduration>3100</diveduration>
+          <equipmentused>
+            <link ref="mares_dc_024_id_2" />
+          </equipmentused>
+        </informationafterdive>
+      </dive>
+      <dive id="#15_2015-08-12T17:49:00">
+        <informationbeforedive>
+          <link ref="site_36_guid_720d2bbb-ca68-487f-8858-c41e98b82efc" />
+          <datetime>2015-08-12T17:49:00</datetime>
+          <surfaceintervalbeforedive>
+            <passedtime>24240.0</passedtime>
+          </surfaceintervalbeforedive>
+        </informationbeforedive>
+        <samples>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>0</divetime>
+            <switchmix ref="gas_15" />
+            <temperature>292.15</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>2.6</depth>
+            <divetime>5</divetime>
+            <temperature>292.15</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>2.5</depth>
+            <divetime>10</divetime>
+            <temperature>292.05</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>2.3</depth>
+            <divetime>15</divetime>
+            <temperature>291.95</temperature>
+          </waypoint>
+          <waypoint>
+            <depth>2.7</depth>
+            <divetime>20</divetime>
+            <temperature>291.95</temperature>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+	  <averagedepth>	</averagedepth>
+          <lowesttemperature>290.55</lowesttemperature>
+          <greatestdepth ref="toto">6.8</greatestdepth>
+          <diveduration>200</diveduration>
+          <equipmentused>
+            <link ref="mares_dc_024_id_2" />
+          </equipmentused>
+        </informationafterdive>
+      </dive>
+    </repetitiongroup>
+    </profiledata>
+</uddf>
