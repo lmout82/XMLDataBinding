@@ -6,7 +6,13 @@ As C++ does not support reflexion natively, this lib makes an extensive use of S
 
 This side project was initially created to extract information from the Universal Dive Data Format (UDDF).
 
-Please note that this lib was developed and tested only under linux (Mint 18) and the work is in progress.
+Please note that this lib was developed and tested only under linux (Mint 18).
+
+## Important notice
+
+This repository was initially developed when I was learning to code a long long time ago. Please take into account that this work does not reflect my present skills.
+
+**_This repository is not maintained._**
 
 ## Example (from demo.cpp)
 ### UDDF
